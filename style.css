@@ -433,17 +433,56 @@ form button {
 }
 .footer .footer-items {
     width: auto;
-    height: 200px;
+    height: 100px;
     display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
     margin-left: 15%;
     margin-right: 15%;
-    border: 1px solid #ffffff;
+}
+.footer .contact {
+    display: flex;
+    flex-direction: column;
 }
 
-/* .footer .footer-items > div {
-    height: 70px;
-    width: auto;
-} */
+.social-links {
+    margin-top: -30px;
+    margin-left: 53%;
+    height: 150px;
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer i {
+    color: #ffffff;
+    /* font-size: 1.4rem;
+    padding: 12px;
+    margin-left: 10px; */
+}
+button {
+    cursor: pointer;
+}
+.footer i:hover {
+    color: #F07C00;
+    transition: all 1s ease;
+}
+.nav-links, .nav-links-2 {
+    list-style: none;
+    color: #ffffff;
+}
+.nav-links ul, .nav-links-2 ul {
+    list-style: none;
+    color: #ffffff;
+
+}
+.nav-links ul li, .nav-links-2 ul li {
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+.nav-links ul li a, .nav-links-2 ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
 
 @media (max-width: 760px)  {
     .before-nav {
