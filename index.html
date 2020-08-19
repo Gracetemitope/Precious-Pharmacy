@@ -6,7 +6,9 @@
     <title>Precious-Pharmacy</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://kit-free.fontawesome.com/releases/latest/css/free-v4-shims.min.css" media="all" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/74091f2b8e.js"></script></head></head>
+    <script src="https://kit.fontawesome.com/74091f2b8e.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 <body>
     <header>
         <div class="before-nav">
@@ -15,13 +17,13 @@
             </div> 
             <div class="border-left"></div> 
             <img src="./asset/phone.png" alt="" class="phone-icon">
-            <p>+2348081369170</p>
+            <p class="phone">+2348081369170</p>
             <div class="Input-icon">
-            <input type="text" name="" id="" placeholder="Location" class="location">
+            <input type="text" name="" id="" placeholder="Location" class="location before-nav-form">
             <i class="fas fa-map-marker-alt"></i>       
          </div>
          <div class="Input-icon">
-            <input type="text" placeholder="Search">
+            <input type="text" placeholder="Search" class="before-nav-form">
             <i class="fas fa-search"></i>          
          </div>
               <select class="dropdown" id="dropdown" >
@@ -58,13 +60,177 @@
             </div>
           </nav>
       </header>
+      <i class="fa fa-chevron-left prev"></i>  
+          <i class="fa fa-chevron-right next"></i>
       <div class="hero-image">
-        <!-- <div>your content</div>
-        <div>your content</div>
-        <div>your content</div> -->
+          <div>
+          <h2>
+            Improving health, Improving Life.
+          </h2>
+          <p>We're pushing boundaries of science amd hope the expectation that the medicines and vaccines we prescribe will lead to better health for society for generations to come.</p>
+        </div>
       </div>
+      <section class="services">
+        <h1>Services</h1>
+        <div class="service-item">
+          <div data-aos="fade-right"
+          data-aos-duration="2000">
+            <div>
+              <img src="./asset/Vector (1).png" alt="">
+              <p>PHARMACEUTICALS </p>
+            </div>
+          </div>
+          <div>
+            <div style="background-color: rgba(177, 201, 0, 0.35);;">
+              <img src="./asset/Vector (1).png" alt="">
+              <p>TECHNOLOGY </p>
+            </div>
+          </div>
+          <div>
+            <div style="background-color: rgba(93, 93, 249, 0.4);;">
+              <img src="./asset/Vector (3).png" alt="">
+              <p>PHARMACISTS</p>
+            </div>
+          </div>
+          <div>
+            <div style="background-color: rgba(238, 40, 13, 0.5);;">
+              <img src="./asset/Vector (4).png" alt="">
+              <p>EMERGENCY CARE </p>
+            </div>
+            </div>
+          </div>
+        </div>
+        
+      </section>
+      <section class="appointment">
+        <div class="align">
+        <div class="book-info">
+          <h3>Get an appointment</h3>
+          <p style="margin-top: 1%;">Here are some key features of our Pharmacy, stay connected <br> with us.</p>
+          <div class="img-info">
+            <div>
+              <img src="./asset/vector4.png" alt="">
+            </div>
+            <div style="margin-left: 3%;">
+              <h4>Experience Pharmacists</h4>
+              <p style="margin-top: 1%;">We have experienced and qualified pharmacists. They <br> have graduated from the popular medical institutes in the <br> world.</p>
+            
+            </div>
+            
+          </div>
+          <div class="img-info">
+            <div>
+              <img src="./asset/vector4.png" alt="">
+            </div>
+            <div style="margin-left: 3%;">
+              <h4>Advance Technology</h4>
+              <p style="margin-top: 1%;">We use advanced technology and equipment to diagnose <br> and prescribe drugs so patients can get advance <br> treatment.</p>            
+            </div>
+        </div>
+        <div class="img-info">
+          <div>
+            <img src="./asset/Vector (5).png" alt="">
+          </div>
+          <div style="margin-left: 3%;">
+            <h4> Emergency Care</h4>
+          <p>We have an emergency health support center that is <br> available 24 hours, everyday.</p>        
+          </div>
+      </div>
+        </div>
+      <div class="book-form">
+        <form action="">
+          <label for="name">Name</label> <br>
+          <input type="text" placeholder="Enter your name"> <br><br>
+        <label for="Gender">Gender</label> <br>
+        <select name="" id="" aria-placeholder="Select Your sex">
+          <option value="">Select your sex</option>
+          <option value="">Select your sex</option>
+          <option value="">Select your sex</option>
+
+        </select> <br> <br>
+        <label for="phone">Phone Number</label> <br>
+        <input type="number" name="" id="" placeholder="Enter your phone number"> <br> <br>
+        <label for="Appointment date">Appointment Date</label> <br>
+        <input type="date" name="" id="" placeholder="Choose a date"> <br> <br>
+        <button>Submit Request</button>
+      </form>
+      </div>
+      </div>
+      </section>
+      <section class="news">
+        <h1>Latest News</h1>
+        <div class="news-item">
+          <div class="item1">
+            <div class="bg-img"></div>
+            <h4>Drugs Abuse</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in aliquam mi.</p>
+            <a href="">Read more...</a>
+          </div>
+          <div class="item1">
+            <div class="news2"></div>
+            <h4>Stress Killer </h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in aliquam mi.</p>
+            <a href="">Read more...</a>
+          </div>
+          <div class="item1">
+            <div class="news3"></div>
+            <h4>Diabetes</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in aliquam mi.</p>
+            <a href="">Read more...</a>
+          </div>
+          <div class="item1">
+            <div class="news4"></div>
+            <h4>Vaccines</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in aliquam mi.</p>
+            <a href="">Read more...</a>
+          </div>
+        </div>
+        <button>More News</button>
+      </section>
+      <section class="sponsors">
+        <div class="sponsor-cont">
+        <div class="sponsor1">
+          <img src="./asset/sponsor1.png" alt="">
+        </div>
+        <div class="sponsor1">
+          <img src="./asset/sponsor1-1.png" alt="">
+        </div>
+        <div class="sponsor1">
+          <img src="./asset/sponsor3.png" alt="">
+          <img src="./asset/sponsor3-1.png" alt="">
+        </div>
+        <div class="sponsor1">
+          <img src="./asset/sponsor4.png" alt="">
+        </div>
+      </div>
+      </section>
+      <section class="footer">
+        <h2>Subscribe to get the latest news </h2>
+        <p>Get all important health reated news and health tips in your mail.</p>
+        <div class="subscribe">
+        <input type="text" placeholder="Enter your email address">
+        <button>Subscribe</button>
+      </div>
+      <div class="footer-items">
+        <div class="logo-cont">
+          <img src="./asset/Precious_logo_ 1.png" alt="">
+        </div>
+        <div class="contact">
+          <h4>3, OMIDA ROAD, OPPOSITE KEYSTONE BANK, ABEOKUTA, OGUN STATE. NIGERIA.</h4>
+          <i class="far fa-facebook"></i>
+          <i class="far fa-twitter"></i>
+          <i class="far fa-instagram"></i>
+          <i class="far fa-linkedin"></i>
+
+        </div>
+      </div>
+      </section>
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
       <script src="./script.js"></script>
+      <script>
+        AOS.init();
+      </script>
 </body>
 </html>

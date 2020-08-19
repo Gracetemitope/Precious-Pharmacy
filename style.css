@@ -42,10 +42,10 @@ i {
     color: #aaa;
     transition: 0.3s;
   }
-  p {
+  .phone {
       margin-left: -100px;
   }
-  input {
+  .before-nav-form {
     background: #EFEFEF;
     border-radius: 20px;
     border: none;
@@ -126,6 +126,325 @@ a {
 .navbar .logo {
     display: none;
 }
+
+/* Carousel */
+ 
+.next {
+    position: absolute;
+    top: 50%;
+    right: 30px;
+    font-size: 2em;
+    color: orangered;
+    cursor: pointer;
+}
+.prev {
+    position: absolute;
+    top: 50%;
+    left: 30px;
+    font-size: 2em;
+    color: orangered;
+    cursor: pointer;
+}
+.hero-image {
+    /* position: absolute; */
+    width: auto;
+    height: 450px;
+    border: 1px solid #ffffff;
+    margin-top: 4%;
+    background-image: url("./asset/hero-image.png");
+    background-size: cover;
+
+}
+
+.hero-image div {
+    width: 350px;
+    height: inherit;
+    margin-left: 15%;
+    color: #ffffff;
+}
+.hero-image div h2 {
+    margin-top: 30%;
+    font-family: El Messiri;
+font-style: normal;
+font-weight: 600;
+font-size: 2.3rem;
+line-height: 40px;
+}
+.hero-image div p {
+    font-family: Lato;
+font-style: normal;
+font-weight: 500;
+font-size: 1rem;
+line-height: 20px;
+margin-top: 3%;
+}
+/* Services */
+.services {
+    width: auto;
+    height: 200px;
+    margin-top: 3%;
+}
+.services h1, .news h1 {
+    font-family: El Messiri;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2rem;
+    text-align: center;
+    
+}
+.services .service-item {
+    display: flex;
+    width: auto;
+    height: inherit;
+    margin-top: 20px;
+    margin-left: 15%;
+    margin-right: 15%;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.services .service-item > div {
+    width: 200px;
+    height: 150px;
+    box-shadow: 0px 0px 7px #E5E5E5;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    flex-direction: column;
+    align-items: center;
+}
+.services .service-item > div > div {
+    width: 60px;
+height: 60px;
+background: rgba(240, 124, 0, 0.42);
+border-radius: 20px;
+margin-top: 10%;
+}
+.services .service-item > div > div img {
+    width: 30px;
+    height: 30px;
+    align-items: center;
+    margin-left: 25%;
+    margin-top: 16%;
+}
+.services .service-item > div > div p {
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 50%;
+    /* margin-left: -40%; */
+    /* text-align: center; */
+}
+
+.appointment {
+    width: auto;
+    height: 400px;
+    background-color: #B1C900;
+    margin-top: 8%;
+}
+.appointment .align {
+    width: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+.book-info {
+    margin-top: 5%;
+    color: #ffffff;
+    width: 700px;
+    
+}
+.img-info {
+    margin-top: 3%;
+}
+.img-info {
+    display: flex;
+}
+.img-info > div:nth-child(1) {
+    background: rgba(240, 124, 0, 0.6);
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    
+}
+.img-info > div:nth-child(1) img {
+    width: 40px;
+    height: 45px;
+    margin-left: 17%;
+    margin-top: 12%;
+}
+.book-form {
+    margin-top: -3%;
+    width: 300px;
+    height: 370px;
+    background: #FFFFFF;
+box-shadow: 0px -2px 15px rgba(0, 0, 0, 0.1);
+border-radius: 0px 50px;
+}
+
+form {
+    margin: 40px;
+}
+form input {
+    padding: 5px;
+    width: 200px;
+}
+form select {
+    padding: 5px;
+    width: 200px;
+}
+form label {
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+form button {
+    padding: 5px;
+    width: 200px;
+    background: #F07C00;
+    color: #ffffff;
+    outline: none;
+    border: none;
+}
+.news {
+    margin-top: 20px;
+    width: auto;
+    margin-bottom: 50px;
+}
+.news-item {
+    display: flex;
+    width: auto;
+    height: 300px;
+    /* border: 1px solid black; */
+    margin-top: 20px;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+.news button {
+    /* margin: 0px auto; */
+    margin-left: 45%;
+    width: 200px;
+    padding: 8px;
+    color: #ffffff;
+    outline: none;
+    text-align: center;
+    border: none;
+    background: #F07C00;
+}
+
+.news-item .item1 {
+    width: 200px;
+    height: 280px;
+    box-shadow: 0px 0px 7px #E5E5E5;
+    border-radius: 0px 0px 10px 10px;
+}
+.news-item .item1 .bg-img {
+    width: auto;
+    height: 160px;
+    background-image: url("./asset/news1.png");
+    background-position: center;
+    
+}
+.news-item .item1 h4 {
+    margin-right: 8%;
+    margin-top: 20px;
+    margin-left: 8%;
+}
+.news-item .item1 p {
+    margin-right: 8%;
+    margin-top: 5px;
+    margin-left: 8%;
+    font-size: 13px;
+}
+.news-item .item1 a {
+    text-decoration: none;
+    color: #F07C00;
+    margin-right: 8%;
+    margin-top: 5px;
+    margin-left: 8%;
+    font-size: 13px;
+}
+.news2 {
+    background-image: url("./asset/news2.png");
+    width: auto;
+    height: 160px;
+    background-position: center;
+}
+.news3 {
+    background-image: url("./asset/news3.png");
+    width: auto;
+    height: 160px;
+    background-position: center;
+}
+.news4 {
+    background-image: url("./asset/news4.png");
+    width: auto;
+    height: 160px;
+    background-position: center;
+}
+.sponsors {
+    width: auto;
+    height: 110px;
+    background: #EFEFEF;
+    /* margin-bottom: 20px; */
+}
+.sponsors .sponsor-cont {
+    width: auto;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 15%;
+    margin-right: 15%;
+
+}
+.sponsor1 {
+    margin-top: 25px;
+}
+
+.footer {
+    width: auto;
+    height: 400px;
+    background: #000000;
+    color: #ffffff;
+    margin-bottom: 20px;
+
+}
+.footer h2, .footer p {
+    text-align: center;
+    line-height: 40px;
+}
+.footer .subscribe {
+    display: flex;
+    margin-left: 35%;
+    margin-top: 40px;
+}
+.footer div input {
+    padding: 12px;
+    outline: none;
+    width: 350px;
+}
+.footer div button {
+    border: none;
+    color: #ffffff;
+    background: #F07C00;
+    padding: 8px;
+}
+.footer .footer-items {
+    width: auto;
+    height: 200px;
+    display: flex;
+    margin-left: 15%;
+    margin-right: 15%;
+    border: 1px solid #ffffff;
+}
+
+/* .footer .footer-items > div {
+    height: 70px;
+    width: auto;
+} */
+
 @media (max-width: 760px)  {
     .before-nav {
         display: none;
